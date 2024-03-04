@@ -20,7 +20,6 @@ export default function Home() {
       <Contact />
       <StartProjectCTA />
       <Footer />
-      {/* Améliorer responsive */}
     </div>
   );
 }
