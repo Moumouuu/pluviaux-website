@@ -1,23 +1,20 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 
 export interface ThreeDCardProps {
   title: string;
   description: string;
   imageUrl: string;
-  secondaryButtonText: string;
-  primaryButtonText: string;
+  buttonText: string;
 }
 
 export function ThreeDCard({
   title,
   description,
   imageUrl,
-  primaryButtonText,
-  secondaryButtonText,
+  buttonText,
 }: ThreeDCardProps) {
   return (
     <CardContainer className="inter-var m-3">
@@ -42,20 +39,12 @@ export function ThreeDCard({
           />
         </CardItem>
         <div className="mt-20 flex items-center justify-between">
-          <CardItem
-            translateZ={20}
-            as="button"
-            className="rounded-xl px-4 py-2 text-xs font-normal text-white"
+          <a
+            href="#contact"
+            className="cursor-pointer rounded-xl bg-white px-4 py-2 text-xs font-bold text-black"
           >
-            {primaryButtonText}
-          </CardItem>
-          <CardItem
-            translateZ={20}
-            as="button"
-            className="rounded-xl bg-white px-4 py-2 text-xs font-bold text-black"
-          >
-            {secondaryButtonText}
-          </CardItem>
+            {buttonText}
+          </a>
         </div>
       </CardBody>
     </CardContainer>

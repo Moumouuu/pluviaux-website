@@ -11,8 +11,7 @@ export default function ProcessCards() {
         "Nous commençons par discuter avec vous de vos besoins, de vos attentes et de vos inspirations.",
       imageUrl:
         "https://images.unsplash.com/photo-1586936893354-362ad6ae47ba?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGN1c3RvbWVyc3xlbnwwfHwwfHx8MA%3D%3D",
-      secondaryButtonText: "En savoir plus -> ",
-      primaryButtonText: "Commencer",
+      buttonText: "En savoir plus -> ",
     },
     {
       title: "02 - Devis & Signature",
@@ -20,8 +19,7 @@ export default function ProcessCards() {
         "Nous vous envoyons un devis détaillé en fonction de vos besoins.",
       imageUrl:
         "https://images.unsplash.com/photo-1521790797524-b2497295b8a0?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGN1c3RvbWVyfGVufDB8fDB8fHww",
-      primaryButtonText: "Commencer",
-      secondaryButtonText: "En savoir plus -> ",
+      buttonText: "En savoir plus -> ",
     },
     {
       title: "03 - Réalisation des maquettes",
@@ -29,8 +27,7 @@ export default function ProcessCards() {
         "Si vous ne possédez pas de maquette, nous en créerons une pour vous. Une fois les maquettes réalisées, une phase de validation intervient.",
       imageUrl:
         "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      primaryButtonText: "Commencer",
-      secondaryButtonText: "En savoir plus -> ",
+      buttonText: "En savoir plus -> ",
     },
     {
       title: "04 - Développement",
@@ -38,8 +35,7 @@ export default function ProcessCards() {
         "Une fois les maquettes validées, nous passons à la phase de développement.",
       imageUrl:
         "https://images.unsplash.com/photo-1590608897129-79da98d15969?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      primaryButtonText: "Commencer",
-      secondaryButtonText: "En savoir plus -> ",
+      buttonText: "En savoir plus -> ",
     },
     {
       title: "05 - Livraison & Formation",
@@ -47,8 +43,7 @@ export default function ProcessCards() {
         "Nous vous livrons votre site web et vous formons à son utilisation si besoin.",
       imageUrl:
         "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      primaryButtonText: "Commencer",
-      secondaryButtonText: "En savoir plus -> ",
+      buttonText: "En savoir plus -> ",
     },
   ];
 

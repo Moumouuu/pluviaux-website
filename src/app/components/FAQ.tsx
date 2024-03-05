@@ -40,7 +40,7 @@ export default function FAQ() {
   ];
 
   return (
-    <div className="my-10 flex flex-col items-center justify-center text-white">
+    <div className="p-3 my-10 flex flex-col items-center justify-center text-white">
       <Fade triggerOnce>
         <h2 className="mb-5 bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center text-3xl font-bold text-transparent md:text-5xl">
           Les questions fréquemment posées

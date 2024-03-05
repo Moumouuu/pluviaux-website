@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { Fade } from "react-awesome-reveal";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 const words =
   "Étudiant en informatique, passionné de sport et de développement web, j'ai commencé à explorer le monde du web pendant le confinement du Covid-19. Créatif de nature, j'ai réalisé divers projets personnels, dont mon portfolio et Edu-Fiche, pour générer des fiches de révision. Mon objectif est que tout le monde puisse accéder à un service professionnel à moindre coût.";
@@ -13,14 +13,14 @@ export default function AboutMe() {
           À propos de moi
         </h2>
       </Fade>
-      <div className="flex w-[70%] flex-col items-center lg:flex-row">
+      <div className="flex w-[90%] text-center md:text-left lg:w-[70%] items-center lg:flex-row flex-col-reverse">
         <TextGenerateEffect words={words} />
         <Image
           alt="Me"
           src={"/assets/images/robin.jpeg"}
           height={100}
           width={400}
-          className="ml-4 mt-10 h-[500px] w-auto rounded-2xl object-cover"
+          className="lg:ml-6 mb-10 h-[300px] lg:h-[500px] w-auto rounded-2xl object-cover"
         />
       </div>
     </div>
