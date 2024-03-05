@@ -15,7 +15,7 @@ export function SpotlightPreview() {
       <div className="bg-grid-white/[0.02] relative flex w-full overflow-hidden rounded-md md:pt-20 antialiased h-[25rem] md:h-[40rem] md:items-center md:justify-center">
         <div className="h-[25rem] md:h-[45rem] relative w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
           <Spotlight
-            className="-top-0 left-0 md:-top-20 md:left-50"
+            className="-top-20 left-0 md:-top-20 md:left-50"
             fill="white"
           />
 
