@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={cn("bg-[#0d0d0d]", inter.className)}>{children}</body>
-      <script defer src="https://umami-production-3f4f.up.railway.app/script.js" data-website-id="6f019808-f162-4f0a-9bd1-1b633b581b07"></script>
+      <Script defer src="https://umami-production-3f4f.up.railway.app/script.js" data-website-id="6f019808-f162-4f0a-9bd1-1b633b581b07"/>
     </html>
   );
 }
